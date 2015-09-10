@@ -11,24 +11,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
     public class FirstPersonController : MonoBehaviour
     {
         [SerializeField] private bool m_IsWalking;
-		[SerializeField] private float m_WalkSpeed;
-		public float WalkSpeed {
-			get {
-				return m_WalkSpeed;
-			}
-			set {
-				m_WalkSpeed = value;
-			}
-		}
-		[SerializeField] private float m_RunSpeed;
-		public float RunSpeed {
-			get {
-				return m_RunSpeed;
-			}
-			set {
-				m_RunSpeed = value;
-			}
-		}
+        [SerializeField] private float m_WalkSpeed;
+        [SerializeField] private float m_RunSpeed;
         [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
         [SerializeField] private float m_JumpSpeed;
         [SerializeField] private float m_StickToGroundForce;

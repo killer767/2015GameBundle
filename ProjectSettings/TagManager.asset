@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Ground
   - Curtain
+  - Blue
+  - Red
+  - Black
+  - NetBlue
+  - NetRed
+  - Des
+  - Ball
   layers:
   - Default
   - TransparentFX

@@ -20,8 +20,8 @@ public class StartButton : MonoBehaviour {
 		m_animator.SetBool ("Hide",true);
 		GameObject.Find("LifeCounter").SendMessage("AddLife", 5);
 		InvokeRepeating ("Spawn", .5f, .05f);
-		fpsCtrler.WalkSpeed = 5f;
-		fpsCtrler.RunSpeed = 10f;
+		//fpsCtrler.WalkSpeed = 5f;
+		//fpsCtrler.RunSpeed = 10f;
 		GameObject.Find("LifeCounter").SendMessage("IsGameOver", 15);
 		GameObject.Find ("Menu").GetComponentInChildren<Button>().enabled = false;
 	}
